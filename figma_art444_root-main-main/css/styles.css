@@ -1,0 +1,64 @@
+/* CSS GOES HERE */
+html {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+section {
+  width: 100%;
+  height: 50vh;
+  padding: 60px 40px;
+}
+section:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  text-align: left;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3em;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+.paragraph_text {
+  display: flex;
+  width: 592px;
+  padding: 2.228px 2.971px 6.685px 2.228px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header_text {
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.faq_sec {
+color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 17.917px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
